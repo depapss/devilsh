@@ -1,5 +1,5 @@
 const Discord = require('discord.js');
-const devs = ['527925159546454026','506794383362883594'];
+const devs = ['452551643343487007','452551643343487007'];
 var prefix = "!";
 const adminprefix = "!"
 const db = require('quick.db');
@@ -173,7 +173,7 @@ if(!message.member.hasPermission('MANAGE_MESSAGES')) return message.reply('لي�
             .addBlankField(true)
             .addField('| عدد الاعضاء المرسل لهم ', message.guild.memberCount , true)        
             .addField('| الرسالة ', args)
-            .setColor(' #ff0000')  
+            .setColor('RANDOM')  
             message.channel.sendEmbed(AziRo);          
         }
         } else {
