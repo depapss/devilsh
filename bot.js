@@ -2,6 +2,10 @@ const Discord = require('discord.js');
 const devs = ['452551643343487007','452551643343487007'];
 var prefix = "!";
 const adminprefix = "!"
+const kbooshtoken = "NTQxMTk1MTM0OTE0NTI3MjQy.D2Vngg.4SJBoHYcVZAd4Jz4uanEULHs3jg"
+      kboosh.on('ready', () => {
+        kboosh.user.setGame(`the wolf`,'https://www.twitch.tv/TEST-Broadcast');
+          console.log('yes.sur');
 const db = require('quick.db');
 const client = new Discord.Client();   
 const giphy = require('giphy-api')();    
@@ -27,11 +31,6 @@ const youtube = new YouTube("AIzaSyAdORXg7UZUo7sePv97JyoDqtQVi3Ll0b8");
 const sql = require("sqlite");
  const dateFormat = require('dateformat'); 
  const pretty = require('pretty-ms') 
- const kbooshtoken = "NTQxMTk1MTM0OTE0NTI3MjQy.D2Vngg.4SJBoHYcVZAd4Jz4uanEULHs3jg"
-      kboosh.on('ready', () => {
-        kboosh.user.setGame(`the wolf`,'https://www.twitch.tv/TEST-Broadcast');
-          console.log('yes.sur');
-  
         });
 ,ti={}  
 ,spee={};
